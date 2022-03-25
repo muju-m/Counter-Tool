@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    background-size: cover;
+    font-weight: bold;
+}
+
+#container{
+    width:400px;
+    height: 400px;
+    background: url(counter1.jpeg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+}
+
+#button{
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: maroon;
+    color: rgb(242, 243, 243);
+}
+
+#button:hover{
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+#reset{
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: maroon;
+    color: rgb(242, 243, 243);
+}
+
+#reset:hover{
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    cursor: pointer;
+}
+
+#decreament{
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background: maroon;
+    color: rgb(242, 243, 243);
+}
+
+#decreament:hover{
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    cursor: pointer;
+}
